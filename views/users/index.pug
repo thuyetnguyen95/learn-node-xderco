@@ -1,0 +1,20 @@
+extends ../layouts/main.pug
+
+block content
+
+    h1 List user
+    table.table
+      thead
+        tr
+          th(scope='col') #
+          th(scope='col') Name
+          th(scope='col') Phone number
+      tbody
+        each user in users
+          tr
+            th(scope='row')= user.id
+            td 
+              a(href="/users/" + user.id)= user.name
+            td= user.phoneNumber
+    hr
+    a(class="btn btn-outline-secondary" href="/") Back

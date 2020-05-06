@@ -1,0 +1,19 @@
+extends ../layouts/main.pug
+
+block content
+
+  .row
+    form.form-signin.col-md-4.offset-md-4(action="/auth/login" method="post")
+      .text-center.mb-4
+        img.mb-4(src='https://i2.wp.com/phocode.com/wp-content/uploads/2016/09/nodejsLogo.png?fit=300%2C300&ssl=1' alt='' width='72' height='72')
+      if errors && errors.length
+        .alert.alert-danger #{errors.shift()}
+      .form-label-group
+        label(for='inputEmail') Email address
+        input#inputEmail.form-control(type='email' name="email" placeholder='Email address' required='' autofocus='')
+      .form-label-group.mt-2
+        label(for='inputPassword') Password
+        input#inputPassword.form-control(type='password' name="password" placeholder='Password' required='')
+      button.btn.btn-lg.btn-primary.btn-block.mt-2(type='submit') Sign in
+      p.mt-5.mb-3.text-muted.text-center &copy;Made by Wami 2020
+

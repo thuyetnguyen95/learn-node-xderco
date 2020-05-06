@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1588024608999,
+      "name": "Thuyết Nguyễn",
+      "email": "mail@mail.com",
+      "password": "123"
+    },
+    {
+      "id": 1588305716322,
+      "name": "Thuyet test",
+      "phoneNumber": "0382221859",
+      "email": "test@mail.com",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "id": "57273943-6b7f-4ffb-abce-914f4abdb828",
+      "name": "Lamb Tenderloin Nz Fr",
+      "image": "https://loremflickr.com/320/240",
+      "description": "imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris"
+    },
+    {
+      "id": "a45db3bf-8570-41db-b87e-d4b0b68fcdeb",
+      "name": "Veal - Leg, Provimi - 50 Lb Max",
+      "image": "https://loremflickr.com/320/240",
+      "description": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti"
+    },
+    {
+      "id": "da5149c2-b9d4-47b4-a80e-4207a1ff3143",
+      "name": "Peppercorns - Green",
+      "image": "https://loremflickr.com/320/240",
+      "description": "in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at"
+    },
+    {
+      "id": "9e918793-04a7-4948-98d4-080710800956",
+      "name": "Juice - Cranberry, 341 Ml",
+      "image": "https://loremflickr.com/320/240",
+      "description": "a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur"
+    },
+    {
+      "id": "eed4467e-3906-42a0-9f49-f4bc2ed3c049",
+      "name": "Muffin Puck Ww Carrot",
+      "image": "https://loremflickr.com/320/240",
+      "description": "nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut"
+    },
+    {
+      "id": "1c9c6c40-c665-4435-b377-0354361c288e",
+      "name": "Carrots - Mini, Stem On",
+      "image": "https://loremflickr.com/320/240",
+      "description": "venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+extends ../layouts/main.pug
+
+block content
+
+  h2 Create new user
+
+  form(action="/users/create" method="post")
+    if errors && errors.length
+      .alert.alert-danger #{errors.shift()}
+
+    .form-group
+      label(for='name') Name
+      input#name.form-control(type='text' placeholder="Enter your name" name="name" value= values ? values.name : '')
+    .form-group
+      label(for='phonenumber') Phone number
+      input#phonenumber.form-control(type='text' name="phone_number" value= values ? values.phone_number : '' placeholder="Enter your phone number")
+    button.btn.btn-primary(type='submit') Submit
